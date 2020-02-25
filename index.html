@@ -3,8 +3,18 @@
 <head>
   <title>Mass Lottery</title>
   <script type="text/javascript" src="lottery.js"></script>
-<body>
+<body onload="secretNums()">
+  <h2> Sorting </h2>
+  <div id="unsortedNums"></div> <br />
+  <div id ="sortedNums"></div>
+  <h2> Payout Calculator </h2>
   <form>
+    <label>Enter 5 numbers separated by spaces: </label>
+    <input id ="userFiveNums" type="text"></input> <br />
+    <label>Enter Lucky Ball number: </label>
+    <input id ="userLucky" type="text"></input> <br />
   </form>
+    <button onclick="playLottery()">Submit</button>
+  <div id="resultDisplay"></div>
 </body>
 </html>
