@@ -1,5 +1,16 @@
+Trisha Cox
+2/26/20
+HW6
 
+URLS:
+https://trish234.github.io/comp20-hw6/lottery.html
+https://trish234.github.io/comp20-hw6/amicable.html
 
+I think javascript as a programming language is neither good
+nor bad. It gives you a lot of flexibility in terms of types
+and making errors, but that's also a con because it doesn't force
+you to be precise. It's clearly made for the web. Outside of
+web programming, I think I would prefer a different language.
 
 
 ******************CODE ****************
@@ -157,7 +168,7 @@ AMICABLE
     <label>Enter your second number: </label>
     <input id="num2" type="text"></input> <br />
   </form>
-    <button onclick="amicable()" type="button" name="button"></button>
+    <button onclick="amicable()" type="button" name="button">Compare</button>
     <div id="displayNums"> </div> <br />
     <div id="arrayHere"> </div> <br />
     <div id="amicableHere"> </div>
